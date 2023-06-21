@@ -1,0 +1,44 @@
+LAÇOS/ITERAÇÃO: |
+-----------------
+
+portugol :  laco c no  intervalo(0,10):
+              |  |  |      |
+no python : for  c in  range(0 ,10):
+
+======================================
+
+exemplo REPETIÇÃO: 
+for c in range(0,3):
+    print('oi')
+---> oi
+     oi
+     oi
+
+exemplo NUMERAÇÃO: 
+for c in range(0,3):
+    print(c)
+---> 1
+     2
+     3
+
+exemplo NUMERAÇÃO ESPAÇADA: 
+for c in range(0,5,2):
+    print(c)
+---> 0
+     2
+     4
+
+exemplo NUMERAÇÃO INVERTIDA: 
+for c in range(3,0,-1):
+    print(c)
+---> 3
+     2
+     1
+
+exemplo SOMA DE VARIAÇÃO: 
+soma = 0
+for c in range(0,3):
+    n = int(input('Digite um numero: '))
+    soma = soma + n
+print('Soma dos 3 numeros é igual a {}.'.format(soma))
+---> 3

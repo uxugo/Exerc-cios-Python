@@ -1,0 +1,62 @@
+MANIPULAÇÃO DE TEXTO
+
+b o m   d i a
+0 1 2 3 4 5 6
+
+    comandos:
+len(variavel) - comando para dizer quais caracteries essa variavel tem 
+variavel.count('a') - contar quantas caracteries em tem em especifico.
+                      Nesse caso vai contar as letras A em determinada variavel
+variavel.find('a') - vai me dizer em qual posição começa a condição A em variavel.
+                     se receber a resposta '-1' é que não existe
+'letra' in variavel - existe a palavra 'letra' em variavel? me volta true ou false na resposta.
+variavel.replace('nome','Victor') - substitue a palavra nome por Victor.
+variavel.upper() - deixa a palavra em maiusculo
+variavel.lower() - deixa a palabra em minusculo
+variavel.captalize() - deixa somento a primeira letra em maiusculo, o resto fica em minusculo
+variavel.title() - transforma todas as palavras com inicio em maiusculo
+variavel.strip() - quando ha espaços desnecessarios ele ignira tanto no inicio ou no final
+variavel.rstrip() - quando ha espaços desnecessarios ele ignira na direita
+variavel.lstrip() - quando ha espaços desnecessarios ele ignira na esquerda
+variavel.split() - fatia cada palavra como uma lista, sendo que a numeração começa
+                   do 0 novamento de cada palavra
+'-'.join(variavel) - o contrario do splint, ele junta tudo novamente como uma só.
+                     esse '-' é o caracter que vai ficar no meio de cada palavra
+
+----------------
+
+    fatiamento fixo
+
+nome = 'victor hugo'
+print(nome[2])
+---> vai aparecer isso: 'c'
+
+    fatiamento continuo
+
+nome = 'victor hugo'
+print(nome[2:8])
+---> vai aparecer isso: 'ctor h'
+
+    fatiamento saltado
+
+nome = 'victor hugo'
+print(nome[2:9:2])
+---> vai aparecer isso: 'co u'
+
+    fatiamento sem inicio
+
+nome = 'victor hugo'
+print(nome[:3])
+---> vai aparecer isso: 'vic'
+
+    fatiamento sem final
+
+nome = 'victor hugo'
+print(nome[4:])
+---> vai aparecer isso: 'or hugo'
+
+    fatiamento incompleto
+
+nome = 'victor hugo'
+print(nome[4::2])
+---> vai aparecer isso: 'o uo'

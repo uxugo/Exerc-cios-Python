@@ -1,0 +1,13 @@
+se você quiser escrever sem ficar com linhas grandes
+é só colocar ''' frase ''', ou seja colocar 3 qtd de
+aspas no inicio e no final de cada print
+
+exemplo:
+    passou disso -
+print('''Sejá bem vindo ao VS Code de criação, bom dia! Estou escrevendo uma frase grande aqui só para o 'eu' do futuro entender como funciona as aspas triplas, se não fosse por elas essa frase estaria enorme, olha só!''')
+    
+    passou para isso - 
+print('''Sejá bem vindo ao VS Code de criação, bom dia! 
+Estou escrevendo uma frase grande aqui só para o 'eu' do 
+futuro entender como funciona as aspas triplas, se não 
+fosse por elas essa frase estaria enorme, olha só!''')

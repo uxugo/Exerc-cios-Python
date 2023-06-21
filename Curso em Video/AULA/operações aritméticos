@@ -1,0 +1,75 @@
++ = soma
+- = subtração
+* = multiplicação
+/ = divisão
+** = potencia
+// = divisão inteira
+% = resto divisão
+== = igual
+
+----------------
+
+potencia = pow(3,2) = 3**2
+
+----------------
+
+    usar o {:20}
+
+nome = input('Qual é o seu nome? ')
+print('Olá {:20} prazer em te conhecer!'.format(nome))
+---> vai aparecer isso: Olá Victor               prazer em te conhecer!
+
+se eu utilizar esse < ou > sinal:
+
+---> esse (<): alinha a esquerda
+nome = input('Qual é o seu nome? ')
+print('Olá {:<20} prazer em te conhecer!'.format(nome))
+---> vai aparecer isso: Olá Victor               prazer em te conhecer!
+
+---> esse (>): alinha a direita
+nome = input('Qual é o seu nome? ')
+print('Olá {:>20} prazer em te conhecer!'.format(nome))
+---> vai aparecer isso: Olá Olá               Victor prazer em te conhecer!
+
+---> esse (^): alinha ao centro
+nome = input('Qual é o seu nome? ')
+print('Olá {:^20} prazer em te conhecer!'.format(nome))
+---> vai aparecer isso: Qual é o seu nome? Victor
+Olá        Victor        prazer em te conhecer!
+
+---> esse (-)(pode ser outro sinal): preenche espaços
+nome = input('Qual é o seu nome? ')
+print('Olá {:-^20} prazer em te conhecer!'.format(nome))
+---> vai aparecer isso: Qual é o seu nome? Victor
+Olá        Victor        prazer em te conhecer!
+
+----------------
+
+    usar o {:.2f}
+
+100 / 3 = 33,33333333333
+para deixar mais bonitinho e limpo eu posso fazer isso:
+x = 100 / 3
+print('A divisão de 100 por 3 é igual a {:.2f}!'.format(x))
+---> vai aparecer isso: A divisão de 100 por 3 é igual a 33.33!
+
+28:00 - aula 7
+
+----------------
+
+    continuar na mesma linha
+
+use: end=''
+print('Meu nome é Victor Hugo' , end=' ')
+print('Alves Lopes')
+---> vai aparecer isso: Meu nome é Victor Hugo Alves Lopes
+
+----------------
+
+    pular linha
+
+use: \n
+print('Meu nome é \nVictor Hugo\nAlves Lopes')
+---> vai aparecer isso: Meu nome é 
+--->                    Victor Hugo
+--->                    Alves Lopes
